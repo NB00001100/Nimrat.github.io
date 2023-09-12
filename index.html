@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content = "IE =edge">
+        <meta name = "viewport" content = "width=device-width, intial-scale = 1.0">
+        <title>Nimrat's Website</title>
+        <link rel ="stylesheet" href = "style.css">
+        <script src = "website.js"></script>
+        <script src="https://kit.fontawesome.com/dfd43f8735.js" crossorigin="anonymous"></script>
+    </head>
+    <body> 
+        <div id="header">
+        <div class="container">
+            <nav>
+               <img src = "Images\nimrat-low-resolution-logo-color-on-transparent-background.png" alt = "logo" class = "logo">
+                <ul>
+                    <li><a href = " #header">Home</a></li>
+                    <li><a href = " #about">About Me</a></li>
+                    <li><a href = " #portfolio">My Work</a></li>
+                    <li><a href = " #contact">Contact</a></li>
+                   
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Computer Science Student</p>
+                <h1>Hi, I'm Nimrat Brar</h1>
+            </div>
+        </div>
+            <!----About Section-->
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-column-1"><img src="Images/IMG_5835.jpg" alt="picture-of-myself" class ="pic-of-myself"></div>
+                    <div class="about-column-2">
+                        <h1 class = "sub-title">About Me</h1>
+                        <p>Hi, I am third-year Computer Science major who is looking for internship oppurtunites to learn. Besides coding, I enjoy working out, playing video games, watching TV shows, and playing soccer as well as basketball.</p>
+                        <div class="tab-titles">
+                            <p class = "tab-links active-link" onclick ="opentab('skills')">Skills</p>
+                            <p class = "tab-links "onclick ="opentab('education')">Education</p>
+                            <p class = "tab-links "onclick ="opentab('programming')">Programming</p>
+                        </div>
+                        <div class="tab-content active-tab" id ="skills">
+                            <ul>
+                                <li><span>Data Structures</span><br> linear data structures, tree data structures, hash data structures and graph data structures.</li>
+                                <li><span>Azure</span><br>building high-level prototypes</li>
+                                <li><span>Algorithm Design & analysis</span><br>Understand the design of greedy, divide&conquer, as well as dynamic programming algorithms and their analysis.</li>
+                                <li><span>UX Design</span><br> Project Development</li>
+                                <li><span>Linux</span><br>Commands & Interfaces</li>
+                                <li><span>Microsoft Office</span><br>Word,Excel,Powerpoint, and Outlook</li>
+
+                            </ul>
+                        </div><div class="tab-content" id = "programming">
+                            <div id="progress-bars">
+                                <div class="container">
+                                    <div class="skills">
+                                        <h2>Java</h2>
+                                        <div class="progress-bar">
+                                            <div class="java">
+                                                <span>80%</span>
+                                            </div>
+                                        </div>
+                                        <h2>HTML</h2>
+                                        <div class="progress-bar">
+                                            <div class="html">
+                                                <span>60%</span>
+                                            </div>
+                                        </div>
+                                        <h2>CSS</h2>
+                                        <div class="progress-bar">
+                                            <div class="css">
+                                                <span>60%</span>
+                                            </div>
+                                        </div>
+                                        <h2>C++</h2>
+                                        <div class="progress-bar">
+                                            <div class="cpp">
+                                                <span>60%</span>
+                                            </div>
+                                        </div>
+                                        <h2>Javascript</h2>
+                                        <div class="progress-bar">
+                                            <div class="javascript">
+                                                <span>50%</span>
+                                            </div>
+                                        </div>
+                                        <h2>C</h2>
+                                        <div class="progress-bar">
+                                            <div class="c">
+                                                <span>40%</span>
+                                            </div>
+                                        </div>
+                                        <h2>NodeJS</h2>
+                                        <div class="progress-bar">
+                                            <div class="nodejs">
+                                                <span>20%</span>
+                                            </div>
+                                        </div>
+                                       
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                             <div class="tab-content" id = "education">
+                            <ul>
+                                <li><span>2020 - 2024</span><br>Bachelor of Science in Computer Science<br>Mount Royal University</li>
+                                <li><span>2016 - 2020</span><br>High School Diploma<br>Foundations for the Future Charter Academy</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------My Work Section-->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class = "sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Images/Mandelbrotv2.png" alt="Mandelbrot-set">
+                        <div class="layer">
+                            <h3>Mandelbrot Set</h3>
+                            <p>A program that generates MandelBrot sets. I utilized C++ and recursive algorithms to create this project.</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/Screenshot (2).png" alt="playlist-view ">
+                        <div class="layer play">
+                            <h3>Playlist Generator</h3>
+                            <p>A playlist generator that can help add your favourite songs from 2016 onwards. The playlist generator also shows metrics for each song such as danceibility,energy,popularity,etc. This program was the first time I used HTML,CSS and JavaScript together.</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="Images/Screenshot 2023-09-07 225621v2.png" alt="comb-sort">
+                        <div class="layer comb">
+                            <h3>Comb Sort Animation</h3>
+                            <p>This program shows an animation of the comb sort algorithm in action. I developed this using Swing and Java.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------Contact Section---------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="left-col">
+                        <h1 class = "sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>brarnimrit8@gmail.com</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/accounts/login/?__coig_restricted=1"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://ca.linkedin.com/in/nimrat-brar-4a32a2252"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/NB00001100"><i class="fa-brands fa-github"></i></a>  
+                        </div>
+                        <a href="NimratBrarResume.pdf" download class= "btn btn-resume">Download CV</a>
+                        
+
+                    </div>
+                    <div class="right-col">
+                        <form name = "submit-to-google-sheet">
+                         <input type = "text" name ="Name" placeholder="Your Name" required>
+                         <input type = "email" name = "Email" placeholder="Your Email" required>
+                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                         <button type="submit" class ="btn btn-submit">Submit</button>
+                        </form>
+                        <span id = "msg"></span>
+
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Nimrat. Made By Referencing GreatStack Tutorials</p>
+        </div>
+              <!--Script for form got this from JamieWilson on Github -->
+
+              <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbyGK0D45O1oR1caWyOtevUAgpBb7k6yxZPvgmudSlEy51rLnw2740LRTmiNQKd8-aZ7lA/exec'
+                const form = document.forms['submit-to-google-sheet']
+              const msg = document.getElementById("msg")
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => {
+                        msg.innerHTML = "Message was Sent Successfully"
+                        setTimeout(function (){
+                            msg.innerHTML = ""
+
+                        }, 5000 )
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+                })
+              </script>
+
+
+
+    </body>
+
+    
+</html>
